@@ -20,7 +20,7 @@ This project plays VGM files through OPL emulators (emu8950 and Nuked-OPL3 more 
 ### How to Compile
 You can use this one-liner to compile this program:
 ```
-gcc main.c opl3.c emu8950.c emuadpcm.c <SDL2 compiler flags> -o opl3vgm
+gcc main.c inprint/inprint2.c opl3.c emu8950.c emuadpcm.c <SDL2 compiler flags> -o opl3vgm
 ```
 then you can run the program by importing a VGM file as an argument:
 ```
@@ -31,5 +31,7 @@ libraries used:
 ![emu8950](https://github.com/digital-sound-antiques/emu8950)
 <br>
 ![Nuked-OPL3](https://github.com/nukeykt/Nuked-OPL3)
-
+<br>
+![SDL_inprint](https://github.com/driedfruit/SDL_inprint)
+<br><br>
 2022 AArt1256
